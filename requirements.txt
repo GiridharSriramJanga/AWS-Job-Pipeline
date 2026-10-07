@@ -1,0 +1,26 @@
+# ── Core data processing ──────────────────────────────────────────────────────
+pandas
+numpy
+pyarrow
+
+# ── AWS ───────────────────────────────────────────────────────────────────────
+boto3
+
+# ── NLP and embeddings ────────────────────────────────────────────────────────
+sentence-transformers
+transformers
+torch
+
+# ── Machine learning ─────────────────────────────────────────────────────────
+scikit-learn
+
+# ── LLM fallback (experience extraction) ─────────────────────────────────────
+groq
+
+# ── Streamlit app ─────────────────────────────────────────────────────────────
+streamlit
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest
+pytest-cov
+moto[s3]
